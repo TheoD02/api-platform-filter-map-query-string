@@ -12,6 +12,8 @@ return static function (ContainerConfigurator $container): void {
     ;
     $container
         ->services()
+        ->load('Theod02\\ApiPlatformFilterMapQueryString\\', '../src/*')
+        ->exclude('../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}')
             // ->set('theod02_api.service_name', 'service_class')
     ;
 };
