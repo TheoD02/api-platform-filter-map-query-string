@@ -27,6 +27,9 @@ use Symfony\Component\Validator\Constraints\NotNull;
 use Symfony\Component\Validator\Constraints\Regex;
 use Symfony\Component\Validator\Constraints\Unique;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
+use Theod02\ApiPlatformFilterMapQueryString\Adapter\ApiFilterInterface;
+use Theod02\ApiPlatformFilterMapQueryString\Attribute\ApiParameter;
+use Theod02\ApiPlatformFilterMapQueryString\Attribute\AsApiFilter;
 
 class FilterHandlerResourceMetadataFactory implements ResourceMetadataCollectionFactoryInterface
 {
