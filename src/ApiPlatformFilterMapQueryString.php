@@ -1,6 +1,6 @@
 <?php
 
-namespace Theod02\ApiPlatformFilterMapQueryString\ApiPlatform;
+namespace Theod02\ApiPlatformFilterMapQueryString;
 
 use Symfony\Component\Config\Definition\Configurator\DefinitionConfigurator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
