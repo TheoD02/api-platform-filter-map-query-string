@@ -1,0 +1,27 @@
+{
+    "name": "theod02/api-platform-filter-map-query-string",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "description": "Bundle that help to declare custom DTO Filter with API Platform and parse it like MapQueryString",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.3",
+        "api-platform/core": "^3.3",
+        "doctrine/orm": "^3.2",
+        "symfony/framework-bundle": "^6.4|^7.0",
+        "symfony/validator": "^7.1"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Theod02\\ApiPlatformFilterMapQueryString\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Theod02\\ApiPlatformFilterMapQueryString\\Tests\\": "tests/"
+        }
+    }
+}
